@@ -3,8 +3,14 @@ UR5 Experiment Workspace
 
 ![ROS-Dist](https://img.shields.io/badge/ROS-Kinetic-green.svg)
 
+Dependencies
+------------
++ [Docker](https://www.docker.com/)
+
 Changelog
 ---------
++ 2018-06-15
+    - add startup script for ursim installation & simulation
 
 + 2018-06-14
     - initialize
