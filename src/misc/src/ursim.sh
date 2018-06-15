@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+
+# source: https://hub.docker.com/r/jacknlliu/ursim/
 sudo docker run -it --security-opt label=disable \
        --device /dev/dri --env="DISPLAY" \
        --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
