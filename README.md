@@ -12,6 +12,7 @@ Changelog
 + 2018-06-22
     - add elbow_only presentation
     - use CLion as IDE
+    - add auto install script for driver of MCC DAQ
     
 + 2018-06-15
     - add startup script for ursim installation & simulation
