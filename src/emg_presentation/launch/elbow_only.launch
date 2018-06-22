@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<launch>
+    <!-- launch controller -->
+    <include file="$(find ur_modern_driver)/launch/ur5_bringup.launch" pass_all_args="true" />
+
+    <node name="elbow_only" pkg="emg_presentation" type="elbow_only" output="screen" />
+</launch>

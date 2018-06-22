@@ -9,6 +9,10 @@ Dependencies
 
 Changelog
 ---------
++ 2018-06-22
+    - add elbow_only presentation
+    - use CLion as IDE
+    
 + 2018-06-15
     - add startup script for ursim installation & simulation
 

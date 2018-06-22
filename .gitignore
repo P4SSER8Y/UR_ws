@@ -55,5 +55,7 @@ qtcreator-*
 # Catkin custom files
 CATKIN_IGNORE
 
-#VSCode
+# IDEs
 .vscode
+.idea
+cmake-build-debug
