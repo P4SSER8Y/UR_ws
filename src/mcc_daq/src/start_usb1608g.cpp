@@ -58,7 +58,11 @@ int main(int argc, char** argv)
     ROS_ERROR("configure MCC USB1608G failed");
     return 1;
   }
-  daq->start();
+  if (daq->start() != MCC1608G_SUCCESS)
+  {
+    ROS_ERROR("start MCC USB1608G failed");
+    return 1;
+  }
 
   std_msgs::Float64MultiArray msg;
 
