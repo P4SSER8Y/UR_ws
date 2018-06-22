@@ -7,6 +7,14 @@ Dependencies
 ------------
 + [Docker](https://www.docker.com/)
 
+Usage Example
+-------------
++ MCC DAQ
+    - install dependencies
+        + `rosrun misc install_mcc_daq_deps.sh`
++ EMG presentation
+    - `roslaunch emg_presentation elbow_only robot_ip:=127.0.0.1`
+
 Changelog
 ---------
 + 2018-06-22
