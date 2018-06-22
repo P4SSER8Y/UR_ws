@@ -11,9 +11,16 @@ Usage Example
 -------------
 + MCC DAQ
     - install dependencies
-        + `rosrun misc install_mcc_daq_deps.sh`
+        * `rosrun misc install_mcc_daq_deps.sh`
+    - launch usb1608G
+        ~~~bash
+        roslaunch mcc_daq usb1608g sample_width:=50 \
+                                   channels:=4 \
+                                   sample_frequency:=1000.0
+        ~~~
 + EMG presentation
-    - `roslaunch emg_presentation elbow_only robot_ip:=127.0.0.1`
+    - elbow_only
+        * `roslaunch emg_presentation elbow_only robot_ip:=127.0.0.1`
 
 Changelog
 ---------
@@ -21,6 +28,7 @@ Changelog
     - add elbow_only presentation
     - use CLion as IDE
     - add auto install script for driver of MCC DAQ
+    - add MCC USB1608G driver
     
 + 2018-06-15
     - add startup script for ursim installation & simulation

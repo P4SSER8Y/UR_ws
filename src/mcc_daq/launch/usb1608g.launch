@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<launch>
+    <arg name="sample_width" />
+    <arg name="channels" />
+    <arg name="sample_frequency" />
+    <param name="sample_width" value="$(arg sample_width)"/>
+    <param name="channels" value="$(arg channels)"/>
+    <param name="sample_frequency" value="$(arg sample_frequency)"/>
+    <node name="mcc_usb1608g" pkg="mcc_daq" type="start_usb1608g" output="screen" />
+</launch>
