@@ -3,9 +3,14 @@ UR5 Experiment Workspace
 
 ![ROS-Dist](https://img.shields.io/badge/ROS-Kinetic-green.svg)
 
-Dependencies
-------------
-+ [Docker](https://www.docker.com/)
+Prerequestite Package
+-------------------------
+Under Ubuntu Xenial 16.04 with ros-kinetic-desktop-full installed.
++ ros-kinetic-moveit
++ ros-kinetic-hardware-interface
++ ros-kinetic-controller-manager
++ ros-kinetic-realtime-tools
++ ros-kinetic-ur-description
 
 Usage Example
 -------------
@@ -24,6 +29,9 @@ Usage Example
 
 Changelog
 ---------
++ 2018-08-21
+    - add installed package
+
 + 2018-06-22
     - add elbow_only presentation
     - use CLion as IDE
